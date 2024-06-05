@@ -7,7 +7,7 @@ body {
 }
 
 .logo {
-    width: 150px;
+    width: 100px;
     margin-top: 20px;
 }
 
@@ -24,7 +24,7 @@ main {
     padding: 20px;
 }
 
-.poster-section {
+.poster-section, .contact-section {
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 20px;
@@ -41,6 +41,6 @@ main {
     margin-top: 10px;
 }
 
-.poster-section p {
+.poster-section p, .contact-section p {
     margin: 10px 0;
 }
