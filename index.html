@@ -3,38 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KT Supermarket</title>
-    <link rel="stylesheet" href="style.css">
+    <title>KT Supermarket - Your Local Kosher Grocery</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <img src="kt-logo.svg" alt="KT Supermarket Logo" class="logo">
-        <h1>Welcome to KT Supermarket</h1>
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="kt-logo.svg" alt="KT Supermarket Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#order">Order Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#deli">Deli</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hours">Store & Delivery Hours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="poster-section">
-            <h2>Delivery Notification</h2>
-            <p>Sign up to receive a phone call or text message when your order is delivered. Call 450-430-3091 #500 for phone notifications or #501 for tracking your order.</p>
-            <a href="Delivery notification.pdf" target="_blank">
-                <img src="Delivery notification.png" alt="Delivery Notification Poster" class="poster">
-            </a>
-            <p><a href="Delivery notification.pdf" target="_blank">Download Delivery Notification PDF</a></p>
+
+    <main class="container my-5">
+        <section id="home" class="my-5 text-center">
+            <div class="content">
+                <h1 class="display-4">Welcome to KT Supermarket</h1>
+                <p class="lead">Your trusted local community kosher grocery offering quick delivery. You can call, text, or WhatsApp your order!</p>
+                <p class="lead">Start by texting "start" to 450-924-7177 to get more information on how to use our system.</p>
+                <img src="images/storefront.jpg" class="img-fluid my-4" alt="KT Supermarket Storefront">
+            </div>
         </section>
-        <section class="poster-section">
-            <h2>Text Your Order</h2>
-            <p>Order your items easily and quickly. Text your order to 450-430-3091. Phone order hours: Sunday 11:00-4:30, Monday-Thursday 10:00-4:30, Friday until 1:00 PM.</p>
-            <a href="text your order.pdf" target="_blank">
-                <img src="text your order.png" alt="Text Your Order Poster" class="poster">
-            </a>
-            <p><a href="text your order.pdf" target="_blank">Download Text Your Order PDF</a></p>
+
+        <hr>
+
+        <section id="about" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">About Us</h2>
+                <p>KT Supermarket is dedicated to providing the freshest kosher groceries to our community. We pride ourselves on fast, friendly service and a wide selection of products. Whether you need everyday essentials or specialty items, we've got you covered.</p>
+                <p>Our mission is to offer a seamless shopping experience that combines convenience, quality, and community spirit. We continually strive to exceed our customers' expectations with our exceptional service and comprehensive product range.</p>
+                <p>Join our community and enjoy personalized shopping experiences and exclusive deals. We value our customers and strive to meet all your grocery needs with exceptional service.</p>
+                <p>At KT Supermarket, we believe in supporting our community. We regularly participate in local events and offer special promotions for our loyal customers. Our commitment to quality extends beyond our products to include our customer service. We are here to help with any questions or special requests you may have.</p>
+                <!-- <img src="images/about-us.jpg" class="img-fluid my-4" alt="About Us"> -->
+            </div>
         </section>
-        <section class="contact-section">
-            <h2>Contact Us</h2>
-            <p>For more information, visit us at:</p>
-            <p><a href="https://maps.app.goo.gl/gFwit4b26shtGGkw8" target="_blank">KT Supermarket Location</a></p>
-            <p>Phone: 450-430-3091</p>
-            <p>Email: info@ktsupermarket.com</p>
+
+        <hr>
+
+        <section id="deli" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">Glatt Kosher Deli</h2>
+                <p>Enjoy our fresh glatt kosher deli, offering a wide range of Shabbos foods, dips, and takeout options. We take pride in our delicious and high-quality deli products, perfect for any occasion.</p>
+                <img src="images/deli.jpg" class="img-fluid my-4" alt="Glatt Kosher Deli">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contact" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">Contact Us</h2>
+                <p>We are here to assist you with all your grocery needs. Reach out to us through any of the following methods:</p>
+                <p>Call us: 450-430-3091</p>
+                <p>Text us: 450-924-7177</p>
+                <p>WhatsApp us: 450-430-3091 (Currently not working, we are fixing it)</p>
+                <p>Email us: info@ktsupermarket.com</p>
+                <p>Our customer service team is available during store hours to answer your questions and help you with your orders. We value your feedback and look forward to serving you.</p>
+                <img src="images/contact-us.jpg" class="img-fluid my-4" alt="Contact Us">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="order" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">Order Now</h2>
+                <p>Placing an order with KT Supermarket is easy and convenient. We offer fast delivery to your doorstep.</p>
+                <p>To sign up for order updates via call or text, please call 450-430-3091 ext 500. To track your current order, call 450-430-3091 ext 500.</p>
+                <p>Phone order hours: Sunday 11:00 AM - 4:30 PM, Monday-Thursday 10:00 AM - 4:30 PM, Friday we accept case orders only until 1:00 PM.</p>
+                <p>We offer a wide variety of kosher products that cater to all your dietary needs. Whether you are looking for fresh produce, dairy products, or specialty items, we have it all. Our fast delivery service ensures that your groceries reach you in perfect condition and on time.</p>
+                <p>For any special requests or bulk orders, please contact us directly. We are here to accommodate your needs and ensure a pleasant shopping experience.</p>
+                <!-- <img src="images/order-now.jpg" class="img-fluid my-4" alt="Order Now"> -->
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="reviews" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">Customer Reviews</h2>
+                <p>Check out what our customers are saying about us on <a href="https://maps.app.goo.gl/hmP79xDpaMxLac7x6" target="_blank">Google Reviews</a>. Your feedback is important to us, and we strive to improve our services based on your suggestions.</p>
+                <p>Here are some of the latest reviews from our satisfied customers:</p>
+                <ul class="list-unstyled">
+                    <li class="my-3"><strong>Sarah L.:</strong> "KT Supermarket has the best selection of kosher products. Their delivery service is fast and reliable!"</li>
+                    <li class="my-3"><strong>David M.:</strong> "Great customer service and a wide variety of products. Highly recommend!"</li>
+                    <li class="my-3"><strong>Rachel S.:</strong> "I love shopping at KT Supermarket. They always have what I need, and their staff is very helpful."</li>
+                </ul>
+                <!-- <img src="images/reviews.jpg" class="img-fluid my-4" alt="Customer Reviews"> -->
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="location" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">Our Location</h2>
+                <p>Find us on the map below:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11163.814880268868!2d-73.8692481!3d45.611574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc928a6bcb80b97%3A0xc9c04cf8de128cae!2sKT%20Supermarket%20KT%20Supermarche!5e0!3m2!1sen!2sus!4v1718952593237!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>We are conveniently located in the heart of the community, making it easy for you to shop with us. Visit our store to experience our friendly service and wide selection of products in person.</p>
+                <!-- <img src="images/location.jpg" class="img-fluid my-4" alt="Our Location"> -->
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="hours" class="my-5 text-center">
+            <div class="content">
+                <h2 class="display-4">Store & Delivery Hours</h2>
+                <h3>Store Hours:</h3>
+                <ul class="list-unstyled">
+                    <li>Friday: 7:30 AM – 5:30 PM</li>
+                    <li>Saturday: 10:15 PM – 12:00 AM</li>
+                    <li>Sunday: 7:30 AM – 11:00 PM</li>
+                    <li>Monday: 7:30 AM – 11:00 PM (Hours might differ)</li>
+                    <li>Tuesday: 7:30 AM – 11:00 PM</li>
+                    <li>Wednesday: 7:30 AM – 12:00 AM</li>
+                    <li>Thursday: 7:30 AM – 12:00 AM</li>
+                </ul>
+                <h3>Delivery Hours:</h3>
+                <ul class="list-unstyled">
+                    <li>Friday: 8:30 AM – 5:30 PM</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: 8:30 AM – 8:00 PM</li>
+                    <li>Monday: 8:30 AM – 8:00 PM (Hours might differ)</li>
+                    <li>Tuesday: 8:30 AM – 8:00 PM</li>
+                    <li>Wednesday: 8:30 AM – 8:00 PM</li>
+                    <li>Thursday: 8:30 AM – 11:00 PM</li>
+                </ul>
+                <p>We strive to provide flexible hours to accommodate your busy schedule. Our delivery service ensures that you receive your groceries promptly. Please note that delivery hours may vary on public holidays. For the latest updates, please contact our customer service team.</p>
+                <!-- <img src="images/hours.jpg" class="img-fluid my-4" alt="Store & Delivery Hours"> -->
+            </div>
         </section>
     </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>Follow us on 
+                <a href="https://x.com/KTSuperPromos" class="text-white" target="_blank"><i class="fab fa-twitter"></i></a> 
+                <a href="https://www.linkedin.com/company/kt-supermarket/?originalSubdomain=ca" class="text-white" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                <a href="https://www.facebook.com/profile.php?id=61561189894225" class="text-white" target="_blank"><i class="fab fa-facebook"></i></a>
+            </p>
+            <p><a href="privacy-policy.html" class="text-white">Privacy Policy</a></p>
+            <p>&copy; 2024 KT Supermarket. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
